@@ -4,14 +4,10 @@ Fill in your information in the configuration variables below
 
 traits = [
     "Background", 
-    "Corpo",
-    "Cabelo",
-    "Mouth",
-    "Nose",
-    "Extras",
+    "Base",    
     "Eyes"
 ] # The different layers and the order that they will be used - MUST be same as trait layer folders
-imageCount = 10 # Total number of images to create
+imageCount = 7# Total number of images to create
 nameFormat = "NFT #[NUMBER]" # The name of each NFT - '[NUMBER]' will be replaced with the NFT number
 description = "Really awesome description!" # Description of collection
 royalty = 2.5 # Royalty percentage (we take a 25% comission of this royalty, e.g. if you set 4% royalties, you get 3% and we get 1%)
